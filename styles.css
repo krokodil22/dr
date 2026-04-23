@@ -195,16 +195,12 @@ h2 {
     24% 4%,
     42% 18%
   );
-  filter: drop-shadow(0 12px 20px rgba(0, 0, 0, 0.45));
+  filter: drop-shadow(0 16px 24px rgba(0, 0, 0, 0.5));
   z-index: -1;
 }
 
 .photo-card::after {
-  content: "";
-  position: absolute;
-  inset: 16% 10%;
-  background: radial-gradient(circle, rgba(0, 0, 0, 0.26) 0%, transparent 75%);
-  z-index: -1;
+  content: none;
 }
 
 .photo.left .photo-card {
@@ -224,7 +220,7 @@ h2 {
   object-fit: contain;
   border: none;
   border-radius: 10px;
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.45);
+  box-shadow: none;
   background: transparent;
 }
 
