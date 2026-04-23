@@ -213,7 +213,7 @@ h2 {
 
 .photo.right .photo-card {
   margin-right: -7vw;
-  transform: rotate(11deg);
+  transform: rotate(-11deg);
 }
 
 .photo img {
@@ -246,7 +246,7 @@ h2 {
 }
 
 .duo img {
-  max-height: 36vh;
+  height: auto;
 }
 
 .mobile {
